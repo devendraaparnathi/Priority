@@ -47,8 +47,10 @@ public class MainActivity extends AppCompatActivity {
                     String string =data[1];
 
                     //this will give url without referral code ----->>
+                    String string2 =data[0];
 
-                    Log.d(TAG, "Third: " + string);
+                    Log.d(TAG, "Referral code: " + string);
+                    Log.d(TAG, "url without referral code: " + string2);
 
                     Toast.makeText(MainActivity.this, "Referral :" + string, Toast.LENGTH_SHORT).show();
 
